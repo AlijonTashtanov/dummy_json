@@ -1,6 +1,6 @@
 # Laravel DummyJSON Import
 
-Bu loyiha `https://dummyjson.com/products` API'sidan iPhone mahsulotlarini olib, ularni bazaga saqlaydi va API orqali ko‘rsatadi.
+Этот проект получает данные о продуктах iPhone с API https://dummyjson.com/products, сохраняет их в базу данных и предоставляет доступ через API.
 
 ## 📌 API Endpoints
 
