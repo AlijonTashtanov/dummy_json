@@ -17,7 +17,7 @@
 ⚙️ Установка
 
 ```bash
-git clone https://github.com/username/laravel-dummyjson-import.git
+git clone https://github.com/AlijonTashtanov/dummy_json.git
 cd laravel-dummyjson-import
 composer install
 cp .env.example .env
