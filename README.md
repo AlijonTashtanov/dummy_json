@@ -4,12 +4,17 @@
 
 ## 📌 API Endpoints
 
-| Method | URL                 | Maqsadi                         |
+| Метод | URL                 | Назначение                         |
 | ------ | ------------------- | ------------------------------- |
-| GET    | /api/products       | Barcha mahsulotlarni ko‘rish    |
-| POST   | /api/products/fetch | Dummyjson'dan olib DBga saqlash |
+| GET    | /api/products       | Просмотр всех продуктов    |
+| POST   | /api/products/fetch | Получение данных с DummyJSON и сохранение в БД |
 
-## ⚙️ O‘rnatish
+📄 Swagger Документация
+Вы можете просмотреть и протестировать API через Swagger по следующему адресу:
+
+/docs/api
+
+⚙️ Установка
 
 ```bash
 git clone https://github.com/username/laravel-dummyjson-import.git
