@@ -17,7 +17,7 @@ class ProductController extends Controller
         $products = $this->apiService->fetchIphones();
         $this->repository->saveProducts($products);
 
-        return response()->json(['message' => 'iPhone mahsulotlari saqlandi!', 'count' => count($products)]);
+        return response()->json(['message' => 'iPhone products saved!', 'count' => count($products)]);
     }
 
     public function index(): JsonResponse
